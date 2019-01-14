@@ -11,6 +11,7 @@ int main()
 	//GhiFile()
 	DocFile(data,n);
 	//XuatMatran(data,n);
-	TimBac(data,n);
-	TimBacMax(data,n);
+	//TimBac(data,n);
+	//TimBacMax(data,n);
+	KTlienthong(data,n);
 }

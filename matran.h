@@ -103,9 +103,35 @@ void TimBacMax(int data[100][100], int &n)
 	}
 }
 
-void KTlienthong()
+void KTlienthong(int data[100][100], int &n)
 {
-
+	int a[100];
+	for (int i = 0; i<n ; ++i)
+	{
+		for (int j = 0; j<n; ++j)
+		{
+			if(data[i][j] == 1)
+			{
+				a[i] = data[i][j];
+			}
+		}
+	}
+	int flag = 0;
+	for (int i = 0; i<n; ++i)
+	{
+		if(a[i] == 0)
+		{
+			flag = 1;
+		}
+	}
+	if (flag == 1)
+	{
+		cout<<"Khong"<<endl;
+	}
+	else
+	{
+		cout<<"Co\n";
+	}
 }
 
 
